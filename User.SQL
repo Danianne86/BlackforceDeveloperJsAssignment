@@ -33,7 +33,8 @@ WHERE Status ='pending';
 
 -- Update the User whose name is Tim to Timothy
 UPDATE User
-SET Name = 'Tim';
+SET Name = 'Timothy'
+WHERE Status = 'Tim';
 
 -- Total Number of Users in each Department
 Select count(id), Department from Users

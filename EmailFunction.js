@@ -1,13 +1,14 @@
 //Solution to Question 3
 
 let EvenGroup = [];
- let OddGroup = [];
- function UserID(numLoop) {
+let OddGroup = [];
+
+function UserID(numLoop) {
      for (let i = 1; i <= numLoop; i++) {
          if (i % 2 ===0) {
-             EvenGroup.push(i);
+            EvenGroup.push(i);
          } else {
-             OddGroup.push(i)
+            OddGroup.push(i)
          }
      }
      console.log ("Total Number of EvenGroup UserID ="  + EvenGroup.length);
